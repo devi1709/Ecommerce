@@ -1,0 +1,99 @@
+.loginsignup{
+	width: 100%;
+	height: 80vh;
+	background: #777;
+	padding-top: 40px;
+}
+.loginsignup-container{
+	width: 440px;
+	height: 440px;
+	background: #444;
+	margin: auto;
+	padding:20px 30px;
+}
+.loginsignup-container h1{
+	margin: 20px 0px;
+}
+.loginsignup-container .last{
+	margin-top:20px;
+	font-size:20px;
+}
+.loginsignup-fields{
+	display: flex;
+	flex-direction: column;
+	gap:25px;
+	margin-top: 30px;
+}
+.loginsignup-container .google .googlebutton{
+	width:94%;
+
+}
+.loginsignup-fields input{
+	height: 42px;
+	width: 95%;
+	padding-left: 20px;
+	border:1px solid #222;
+	outline: none;
+	font-size: 20px;
+	color: #222;
+}
+.loginsignup-container button{
+   width: 90%;
+   height: 50px;
+   margin-top: 20px;
+   border:none;
+   font-size: 15px;
+   font-weight: 500;
+   cursor: pointer;
+   background:#999;
+   margin-bottom:12px;
+}
+
+@media (max-width:1280px){
+	.loginsignup{
+		padding-top:34px;
+	}
+	.loginsignup-container{
+		width:auto;
+		max-width:400px;
+		max-height:500px;
+	}
+	.loginsignup-container h1{
+		margin:8px 0px;
+	}
+	.loginsignup-fields{
+       gap:15px;
+       margin-top:15px;
+	}
+	.loginsignup-fields input{
+		height:40px;
+		width:100%;
+	}
+	.loginsignup-fields button{
+		width:100%;
+	}
+
+}
+@media (max-width:800px){
+	.loginsignup{
+		padding:18px 25px;
+	}
+	.loginsignup-container{
+		font-size:18px;
+	}
+	.loginsignup-container h1{
+		margin:8px 0px;
+	}
+	.loginsignup-fields{
+       margin-top:10px;
+	}
+	.loginsignup-fields input{
+		height:39px;
+		width:100%;
+	}
+	.loginsignup-fields button{
+		height:50px;
+		font-size:15px;
+	}
+
+}
